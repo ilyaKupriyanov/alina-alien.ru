@@ -1,0 +1,73 @@
+.social {
+    display: block;
+    width: 35px;
+    height: 45px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    text-align: center;
+   
+}
+
+
+
+.social p {
+          line-height:12px;
+}
+
+
+
+#vk_ls {
+      background: #4d7198;
+      transition: 0.5s;
+}
+
+#vk_group {
+    background: #4d7198;
+    transition: 0.3s;
+}
+
+.iconmaintext {
+        text-decoration: none;
+     font-family: sans-serif;
+     font-size: 1.4rem;
+     color: #fff;
+    
+}
+
+.addicontext {
+      text-decoration: none;
+        font-family: sans-serif;
+        font-size: 0.5rem;
+        color: #fff;      
+}
+
+#vk_ls:hover {
+    cursor: pointer;
+    background-color: #2c3f54;
+}
+
+
+#vk_group:hover {
+    cursor: pointer;
+    background-color: #2c3f54;
+}
+
+
+#instagram {
+    transition: 0.3s;
+    opacity: 0.8;
+    border: none;
+
+}
+
+#instagram img {
+    max-width:100%;
+    max-height:100%;
+
+}
+
+#instagram:hover{
+        cursor: pointer;
+        opacity: 1;
+}
+

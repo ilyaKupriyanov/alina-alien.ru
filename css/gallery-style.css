@@ -1,0 +1,102 @@
+body, html {
+	height: 100%;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background:#e8e9e9;
+    	padding: 20px 0;
+}
+
+
+.pagebox {
+
+	max-width: 1024px;
+	min-height: 300px;
+	height: auto;
+	margin: 0 auto;
+	padding: 10px;
+	border: 1px solid lightgray;
+	background:#fff;
+	box-shadow: 0 1.5px 0 0 rgba(0,0,0,0.2);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+
+.gallery-name {
+    font-size: 2rem;
+    text-align: center;
+   
+}
+
+.gallery {
+    max-width: 1024px;
+	min-height: 300px;
+	height: auto;
+	margin: 0 auto;
+	padding: 10px;
+	border: 1px solid lightgray;
+	background:#fff;
+	box-shadow: 0 1.5px 0 0 rgba(0,0,0,0.2);
+}
+
+.img-gallery {
+	
+	display:flex;
+	flex-direction:row;
+	flex-wrap: wrap;
+	justify-content:space-around;
+
+}
+
+.img-gallery img {
+	width:300px;
+	height:300px;
+	margin: 10px 10px;
+	object-fit:cover;
+	border-radius: 5px;
+	transition-duration:300ms;
+}
+
+
+footer {
+    margin-top: 0px;
+}
+
+
+img {
+	max-width: 100%;
+}
+
+
+.image-source-link {
+	color: #98C3D1;
+}
+
+.mfp-with-zoom .mfp-container,
+.mfp-with-zoom.mfp-bg {
+	opacity: 0;
+	-webkit-backface-visibility: hidden;
+	/* ideally, transition speed should match zoom duration */
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+.mfp-with-zoom.mfp-ready .mfp-container {
+	opacity: 1;
+}
+.mfp-with-zoom.mfp-ready.mfp-bg {
+	opacity: 0.8;
+}
+
+.mfp-with-zoom.mfp-removing .mfp-container,
+.mfp-with-zoom.mfp-removing.mfp-bg {
+	opacity: 0;
+}

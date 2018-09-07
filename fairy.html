@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Сказочные фото | Фотограф Alina Alien</title>
+    <link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/index-style.css">
+	<link rel="stylesheet" href="css/social_icons_style.css">
+    <link rel="stylesheet" href="css/gallery-style.css">
+ 	<link rel="stylesheet" href="css/stylename.css">
+    <link rel="stylesheet" href="magnific/dist/magnific-popup.css">
+    <script src="js/jquery-3.3.1.js"></script>
+	<script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="js/index_js.js"></script>
+    <script src="magnific/dist/jquery.magnific-popup.min.js"></script>
+
+    <script>
+
+		$(document).ready(function() {
+			$('.img-gallery').magnificPopup({
+				delegate: 'a',
+				type: 'image',
+				tLoading: 'Loading image #%curr%...',
+				mainClass: 'mfp-img-mobile',
+				gallery: {
+					enabled: true,
+					navigateByImgClick: true,
+					preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+				},
+				image: {
+					tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+					titleSrc: function(item) {
+
+					}
+				}
+			});
+		});
+
+
+
+
+    </script>
+
+</head>
+
+<body>
+
+<header>
+		<!--<div id="logo"><a href="index.html"></a><img src="images/logo.jpg" alt=""> </div> -->
+	<a href="index.html" id="logolink">
+		<div id="logoname">
+			Alina Alien Photography
+		</div>
+	</a>
+    <div id="contactme">
+            Запишитесь на фотосессию! <br>
+            8-937-421-14-12
+            <p> </p>
+    </div>
+
+            <div id="socialBlock">
+                <a href="https://vk.com/alina_alien" target="_blank">
+                    <div class='social' id='vk_ls'>
+                        <p> <span class='iconmaintext'>В</span><br>
+                            <span class='addicontext'>ЛС</span>
+                        </p>
+                    </div>
+                </a>
+
+                <a href="https://vk.com/alinaaliens" target="_blank">
+                    <div class='social' id='vk_group'>
+                        <p> <span class='iconmaintext'>В</span><br>
+                            <span class='addicontext'>ГРУППА</span>
+                        </p>
+                    </div>
+                </a>
+
+				<a href="https://www.instagram.com/alina_alien" 					target="_blank">
+					<div class='social' id='instagram'>
+						<div>
+							<img src="/images/inst_bg.jpg" alt="">
+						</div>
+					</div>
+				</a>
+                </div>
+
+</header>
+
+<nav id='navblock'>
+	
+	<ul class="menu">
+		<li class="menu-item">
+			<a href="aboutme.html"> Обо мне </a>
+		</li>
+		<li class="menu-item item-with">
+            <a href="#"> Жанры </a>
+			<ul class="sub-menu">
+					<li>
+					<a href="childs.html"> Дети </a>
+				</li>
+				<li>
+					<a href="personal.html"> Индивидуальная </a>
+				</li>
+				<li>
+					<a href="family.html"> Семья </a>
+				</li>
+
+				<li>
+					<a href="wed.html"> Свадьба </a>
+				</li>
+				<li>
+					<a href="lovestory.html"> LoveStory </a>
+				</li>
+
+				<li>
+					<a href="fairy.html"> Сказка </a>
+				</li>
+			
+							
+			</ul>
+		</li>
+
+		<li  class="menu-item">
+			<a href="price.html">Цены</a>
+		</li>
+
+		<li  class="menu-item">
+			<a href="contacts.html">Контакты</a>
+		</li>
+
+	</ul>
+	
+</nav>  
+   
+  <section class="gallery">
+    <div class="gallery-name">Сказочная фотосессия</div>
+     <div class="img-gallery">    
+        <a href="images/tale/1.jpg">
+            <img src="images/tale/1.jpg" title="Фото 1" alt="Индивидуальная фотосессия">
+        </a>
+
+        <a href="images/tale/2.jpg">
+            <img src="images/tale/2.jpg" alt="Сказочное фото">
+        </a>
+
+        <a href="images/tale/3.jpg">
+            <img src="images/tale/3.jpg" alt="Сказочное фото">
+        </a>
+
+        <a href="images/tale/4.jpg">
+            <img src="images/tale/4.jpg" alt="Сказочное фото">
+        </a>
+
+        <a href="images/tale/5.jpg">
+            <img src="images/tale/5.jpg" alt="Сказочное фото">
+        </a>
+
+        <a href="images/tale/6.jpg">
+            <img src="images/tale/6.jpg" alt="Сказочное фото">
+        </a>
+
+        <a href="images/tale/7.jpg">
+            <img src="images/tale/7.jpg" alt="Сказочное фото">
+        </a>
+
+        <a href="images/tale/8.jpg">
+            <img src="images/tale/8.jpg" alt="Сказочное фото">
+        </a>
+
+        <a href="images/tale/9.jpg">
+            <img src="images/tale/9.jpg" alt="Сказочное фото">
+        </a>
+ 
+    </div>   
+
+  </section>
+
+
+<footer>
+	<div class="footer-text">
+		<br>
+		Все права защищены &copy <br>
+		Сайт создан <a href="https://vk.com/reverie_is_a_tyrant"  target="_blank">KuperWebLaboratory</a>
+
+	</div>
+</footer>
+
+
+</body>
+</html>

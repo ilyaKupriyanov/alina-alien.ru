@@ -1,0 +1,291 @@
+#child-thread {
+
+}
+
+ .wrap {
+	position: relative;
+ 	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	/*background-color: #BBDEFB;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index:1;
+}
+
+ .card {
+	width: 100%;
+	height: 300px;
+	position: relative;
+	perspective: 1400px;
+}
+
+.front, .back {
+	z-index:2;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 1.3s;
+	backface-visibility: hidden;
+	border-radius: 5px;
+}
+
+
+#child-thread .front {
+	background: url("../images/im_index/children-1.jpg"); ;
+}
+
+#child-thread .back {
+	background: url("../images/im_index/children-2.jpg");
+	transform: rotateY(180deg);
+}
+
+
+@media not handheld {
+
+	#child-thread .card:hover {cursor:pointer; }
+
+	#child-thread .card:hover .front {transform:rotateY(180deg);}
+
+	#child-thread .card:hover .back {transform:rotateY(360deg);}
+
+}
+
+#child-thread .front span {
+	font-family:"AdineKirnbergRegular";
+	position:absolute;
+	top:25px;
+	left:25px;
+	font-size: 4rem;
+	color: white;
+}
+
+
+#child-thread .back span {
+	font-family:"AdineKirnbergRegular";
+	position:absolute;
+	bottom: 5px;
+	right: 10px;
+	font-size: 4rem;
+	color: white;
+}
+
+
+/*Индивидуальная*/
+#personal .front {
+	background: url("../images/im_index/personal-1.jpg"); ;
+}
+
+#personal .back {
+	background: url("../images/im_index/personal-2.jpg");
+	transform: rotateY(180deg);
+}
+
+@media not handheld {
+
+	#personal .card:hover {cursor:pointer; }
+
+	#personal .card:hover .front {transform:rotateY(180deg);}
+
+	#personal .card:hover .back {transform:rotateY(360deg);}
+
+}
+
+#personal .front span {
+	font-family:"AdineKirnbergRegular";
+	position:absolute;
+	top:2px;
+	left:5px;
+	font-size: 3.6rem;
+	color: white;
+}
+
+
+#personal .back span {
+	font-family:"AdineKirnbergRegular";
+	position:absolute;
+	bottom: 5px;
+	left: 10px;
+	font-size: 4rem;
+	color: white;
+}
+
+
+
+/*Семейная съемка*/
+
+#family-thread .front {
+	background: url("../images/im_index/family-1.jpg"); ;
+}
+
+#family-thread .back {
+	background: url("../images/im_index/family-2.jpg");
+	transform: rotateY(180deg);
+}
+
+
+@media not handheld  {
+
+	#family-thread .card:hover {cursor:pointer; }
+
+	#family-thread .card:hover .front {transform:rotateY(180deg);}
+
+	#family-thread .card:hover .back {transform:rotateY(360deg);}
+}
+
+#family-thread .front span {
+	font-family:"AdineKirnbergRegular";
+	position:absolute;
+	top:7px;
+	right:7px;
+	font-size: 4rem;
+	color: white;
+}
+
+
+#family-thread .back span {
+	font-family:"AdineKirnbergRegular";
+	position:absolute;
+	top: 5px;
+	left: 10px;
+	font-size: 3.5rem;
+	color: white;
+}
+
+
+
+
+
+/*Wed*/
+#wed-thread .front {
+	background: url("../images/im_index/wed-1.jpg"); ;
+}
+
+#wed-thread .back {
+	background: url("../images/im_index/wed-2.jpg");
+	transform: rotateY(180deg);
+}
+
+@media not handheld  {
+
+	#wed-thread .card:hover {cursor: pointer; }
+	#wed-thread .card:hover .front {transform: rotateY(180deg);}
+	#wed-thread .card:hover .back {transform: rotateY(360deg);}
+
+}
+
+
+
+#wed-thread .front span {
+	font-family:"AdineKirnbergRegular";
+	position:absolute;
+	left:25px;
+	top:10px;
+	font-size: 4rem;
+	color: white;
+}
+
+
+#wed-thread .back span {
+	font-family:"AdineKirnbergRegular";
+	position:absolute;
+	bottom: 5px;
+	left: 65px;
+	font-size: 4rem;
+	color: white;
+}
+
+
+
+/*LoveStory*/
+#lovestory-thread .front {
+	background: url("../images/im_index/lovestory-1.jpg"); ;
+}
+
+#lovestory-thread .back {
+	background: url("../images/im_index/lovestory-2.jpg");
+	transform: rotateY(180deg);
+}
+
+@media not handheld {
+
+	#lovestory-thread .card:hover {cursor:pointer; }
+
+	#lovestory-thread .card:hover .front {transform:rotateY(180deg);}
+
+	#lovestory-thread .card:hover .back {transform:rotateY(360deg);}
+
+}
+
+#lovestory-thread .front span {
+	font-family:"AdineKirnbergRegular";
+	position:absolute;
+	bottom:15px;
+	left:15px;
+	font-size: 4rem;
+	color: white;
+}
+
+
+#lovestory-thread .back span {
+	font-family:"AdineKirnbergRegular";
+	position:absolute;
+	top: 15px;
+	left: 25px;
+	font-size: 4rem;
+	color: white;
+}
+
+
+
+/*Сказка*/
+#fairy-tale .front {
+	background: url("../images/im_index/fairy-1.jpg"); ;
+}
+
+#fairy-tale .back {
+	background: url("../images/im_index/fairy-2.jpg");
+	transform: rotateY(180deg);
+}
+
+@media not handheld {
+
+	#fairy-tale .card:hover {cursor:pointer; }
+
+	#fairy-tale .card:hover .front {transform:rotateY(180deg);}
+
+	#fairy-tale .card:hover .back {transform:rotateY(360deg);}
+
+}
+
+#fairy-tale .front span {
+	font-family:"AdineKirnbergRegular";
+	position:absolute;
+	top:85px;
+	left:15px;
+	font-size: 4rem;
+	color: white;
+}
+
+
+#fairy-tale .back span {
+	font-family:"AdineKirnbergRegular";
+	position:absolute;
+	bottom: 5px;
+	left: 10px;
+	font-size: 4rem;
+	color: white;
+}
+
+
+
+
+
+

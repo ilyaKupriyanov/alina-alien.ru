@@ -1,0 +1,20 @@
+
+@font-face {
+	font-family: "AdineKirnbergRegular";
+	src: url("../fonts/AdineKirnbergRegular/AdineKirnbergRegular.eot");
+	src: url("../fonts/AdineKirnbergRegular/AdineKirnbergRegular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/AdineKirnbergRegular/AdineKirnbergRegular.woff") format("woff"),
+	url("../fonts/AdineKirnbergRegular/AdineKirnbergRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "AlexanderRegular";
+	src: url("../fonts/AlexanderRegular/AlexanderRegular.eot");
+	src: url("../fonts/AlexanderRegular/AlexanderRegular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/AlexanderRegular/AlexanderRegular.woff") format("woff"),
+	url("../fonts/AlexanderRegular/AlexanderRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}

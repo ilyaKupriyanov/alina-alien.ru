@@ -1,0 +1,71 @@
+
+    .about_me_block {
+        display: block;
+        max-width: 1024px;
+        min-height: 1200px;
+        height: auto;
+        margin: 2px auto;
+        padding: 15px;
+        border: 1px solid lightgray;
+        background:#fff;
+        box-shadow: 0 1.5px 0 0 rgba(0,0,0,0.2);
+
+    }
+
+
+    
+ 
+     .header_about_me {
+         display: block;
+        font-size: 2rem;
+        text-align: center;
+
+    }
+    
+    .about_text {
+        display: block;
+ 
+        float: left;
+        padding-left: 10px;
+        font-size:1.4rem;
+        text-align: justify;  
+ 
+    }   
+    
+    .about_photo {
+        display: block;
+        min-width: 230px;
+        width: 30%;
+        height: 400px;
+        object-fit: cover;
+        float: right;
+        margin: 15px;
+    }
+
+
+#video_backstage {
+    float: right;
+  
+}
+    
+    @media screen and (max-width:750px) {
+        
+        .about_text {
+            display: block;
+            float: none;
+            width:100%;
+            font-size:1.2rem;
+            text-align: justify;   
+        }   
+
+        .about_photo {
+            float: none;
+            display: block;
+            width:250px;
+            height:400px;
+            object-fit: cover;    
+            margin: 0 auto;
+            padding: 25px;
+        }
+    }
+    
